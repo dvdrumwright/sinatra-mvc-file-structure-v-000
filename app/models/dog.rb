@@ -3,10 +3,11 @@ class Dog
 
   DOGS = []
 
-def initialization ( :name, :breed, :age)
+def initialization (name,breed,age)
   @name = name
   @breen = breed
   @age = age
+  DOGS << self 
  end
 
  self.all
