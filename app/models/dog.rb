@@ -7,10 +7,11 @@ def initialization (name,breed,age)
   @name = name
   @breen = breed
   @age = age
-  DOGS << self 
+  DOGS << self
  end
 
  self.all
   DOGS
  end
+
 end
